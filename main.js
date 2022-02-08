@@ -26,7 +26,9 @@ Vue.prototype.url={
 	searchMessageById: baseUrl + "/message/searchMessageById",
 	UpdateUnreadMesageById: baseUrl + "/message/UpdateUnreadMesageById",
 	DeleteMessageRefById: baseUrl + "/message/DeleteMessageRefById",
-	searchMyMeetingListByPage: baseUrl + "/meeting/searchMyMeetingListByPage"
+	searchMyMeetingListByPage: baseUrl + "/meeting/searchMyMeetingListByPage",
+	searchUserGroupByDept: baseUrl + "/user/searchUserGroupByDept",
+	searchMembers:baseUrl+"/user/searchMembers"
 }
 
 Vue.prototype.checkPermission = function(perms){
