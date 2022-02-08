@@ -115,6 +115,7 @@ export default {
 	
 	methods: {
 		toMembersPage: function() {
+			//测试
 			let array = [];
 			for (let one of this.members) {
 				array.push(one.id);
